@@ -60,17 +60,17 @@
 &kp TAB    &kp Q                &kp W            &kp F                &kp P              &kp G   &none                                                                                       &none      &kp J   &kp L               &kp U                 &kp Y             &kp SEMI              &kp BSLH
 &kp ESC    &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_COMMAND S  &hml LEFT_SHIFT T  &kp D   &none     &kp LEFT_COMMAND  &kp LALT                  &kp RIGHT_CONTROL  &kp RIGHT_COMMAND  &none      &kp H   &hmr RIGHT_SHIFT N  &hmr RIGHT_COMMAND E  &hmr RIGHT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
 &kp LSHFT  &kp Z                &kp X            &kp C                &kp V              &kp B                               &kp C_BRIGHTNESS_INC      &kp C_VOLUME_UP                                  &kp K   &kp M               &kp COMMA             &kp DOT           &kp FSLH              &kp RSHFT
-&mo 1      &kp GRAVE            &caps_word       &kp LEFT             &kp RIGHT                  &kp BSPC  &kp DEL           &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_DOWN  &kp ENTER          &kp SPACE          &kp UP              &kp DOWN              &kp LBKT          &kp RBKT              &mo 1
+&sl 1      &kp GRAVE            &caps_word       &kp LEFT             &kp RIGHT                  &kp BSPC  &kp DEL           &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_DOWN  &kp ENTER          &kp SPACE          &kp UP              &kp DOWN              &kp LBKT          &kp RBKT              &sl 1
             >;
         };
 
         fn {
             bindings = <
-&kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6  &none                                       &mo 2   &kp F7  &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&trans  &trans  &trans  &trans  &trans  &trans  &none                                       &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &none   &trans  &trans      &trans  &trans  &none   &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &trans  &trans  &trans   &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans  &trans  &trans   &trans   &trans
+&trans  &trans            &trans        &trans            &trans      &trans   &none                                       &mo 2   &trans   &trans      &trans             &trans         &trans             &trans
+&trans  &kp F1            &kp F2        &kp F3            &kp F4      &kp F5   &none                                       &none   &kp F6   &kp F7      &kp F8             &kp F9         &kp F10            &trans
+&trans  &sk LEFT_CONTROL  &sk LEFT_ALT  &sk LEFT_COMMAND  &sk LSHIFT  &kp F11  &none   &trans  &trans      &trans  &trans  &none   &kp F12  &sk RSHIFT  &sk RIGHT_COMMAND  &sk RIGHT_ALT  &sk RIGHT_CONTROL  &trans
+&trans  &trans            &trans        &trans            &trans      &trans                   &trans      &trans                  &trans   &trans      &trans             &trans         &trans             &trans
+&trans  &trans            &trans        &trans            &trans               &trans  &trans  &trans      &trans  &trans  &trans           &trans      &trans             &trans         &trans             &trans
             >;
         };
 
