@@ -56,11 +56,11 @@
 
         default_layer {
             bindings = <
-&kp EQUAL  &kp N1               &kp N2           &kp N3               &kp N4             &kp N5  &none                                                                                       &mo 2      &kp N6  &kp N7              &kp N8                &kp N9            &kp N0                &kp MINUS
-&kp TAB    &kp Q                &kp W            &kp F                &kp P              &kp G   &none                                                                                       &none      &kp J   &kp L               &kp U                 &kp Y             &kp SEMI              &kp BSLH
-&kp ESC    &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_COMMAND S  &hml LEFT_SHIFT T  &kp D   &none     &kp LEFT_COMMAND  &kp LALT                  &kp RIGHT_CONTROL  &kp RIGHT_COMMAND  &none      &kp H   &hmr RIGHT_SHIFT N  &hmr RIGHT_COMMAND E  &hmr RIGHT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
-&kp LSHFT  &kp Z                &kp X            &kp C                &kp V              &kp B                               &kp C_BRIGHTNESS_INC      &kp C_VOLUME_UP                                  &kp K   &kp M               &kp COMMA             &kp DOT           &kp FSLH              &kp RSHFT
-&sl 1      &kp GRAVE            &caps_word       &kp LEFT             &kp RIGHT                  &kp BSPC  &kp DEL           &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_DOWN  &kp ENTER          &kp SPACE          &kp UP              &kp DOWN              &kp LBKT          &kp RBKT              &sl 1
+&kp EQUAL  &kp N1               &kp N2           &kp N3               &kp N4             &kp N5  &none                                                                      &mo 2      &kp N6  &kp N7              &kp N8                &kp N9            &kp N0                &kp MINUS
+&kp TAB    &kp Q                &kp W            &kp F                &kp P              &kp G   &none                                                                      &none      &kp J   &kp L               &kp U                 &kp Y             &kp SEMI              &kp BSLH
+&kp ESC    &hml LEFT_CONTROL A  &hml LEFT_ALT R  &hml LEFT_COMMAND S  &hml LEFT_SHIFT T  &kp D   &none     &sl 1    &kp C_BRIGHTNESS_INC      &kp C_VOLUME_UP    &sl 1      &none      &kp H   &hmr RIGHT_SHIFT N  &hmr RIGHT_COMMAND E  &hmr RIGHT_ALT I  &hmr RIGHT_CONTROL O  &kp SQT
+&kp LSHFT  &kp Z                &kp X            &kp C                &kp V              &kp B                      &kp C_BRIGHTNESS_DEC      &kp C_VOLUME_DOWN                        &kp K   &kp M               &kp COMMA             &kp DOT           &kp FSLH              &kp RSHFT
+&sl 1      &kp GRAVE            &caps_word       &kp LEFT             &kp RIGHT                  &kp BSPC  &kp DEL  &kp C_PLAY_PAUSE          &kp C_MUTE         &kp ENTER  &kp SPACE          &kp UP              &kp DOWN              &kp LBKT          &kp RBKT              &sl 1
             >;
         };
 
