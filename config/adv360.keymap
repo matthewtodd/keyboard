@@ -47,6 +47,11 @@
             bindings = <&mo 5>;
             key-positions = <69 70>;
         };
+
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <65 66>;
+        };
     };
 
     keymap {
@@ -78,7 +83,7 @@
 &none  &none      &none     &none     &none      &none  &none                                       &none             &none  &none           &none            &none              &none         &none
 &none  &kp LCTRL  &kp LALT  &kp LGUI  &kp LSHFT  &none  &none  &none  &none      &none  &none       &none             &none  &kp C_PREVIOUS  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp C_NEXT    &none
 &none  &none      &none     &none     &none      &none                &none      &none                                &none  &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 4  &none
-&none  &none      &none     &none     &none             &none  &none  &none      &none  &kp C_STOP  &kp C_PLAY_PAUSE         &none           &none            &none              &none         &none
+&none  &none      &none     &none     &none             &none  &none  &none      &none  &kp C_MUTE  &kp C_PLAY_PAUSE         &none           &none            &none              &none         &none
             >;
         };
 
