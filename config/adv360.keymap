@@ -44,8 +44,8 @@
     combos {
         compatible = "zmk,combos";
 
-        fun {
-            bindings = <&mo 5>;
+        fwd-del-or-fun-layer {
+            bindings = <&lt 5 DELETE>;
             key-positions = <69 70>;
         };
 
